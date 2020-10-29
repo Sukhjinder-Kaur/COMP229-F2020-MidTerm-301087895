@@ -1,5 +1,5 @@
 {
-  "name": "comp229-f2020-midterm",
+  "name": "comp229-f2020-midterm-301087895",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -45,17 +45,17 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Sukhjinder-Kaur/COMP229-F2020-MidTerm-301087895.git"
   },
   "keywords": [
     "NodeJS",
     "ExpressJS",
     "EJS"
   ],
-  "author": "Your Name Goes Here",
+  "author": "Sukhjinder Kaur",
+  "homepage": "https://github.com/Sukhjinder-Kaur/Portfolio-Site#readme",
   "license": "ISC",
   "bugs": {
-    "url": ""
-  },
-  "homepage": ""
+    "url": "https://github.com/Sukhjinder-Kaur/COMP229-F2020-MidTerm-301087895/issues"
+  }
 }

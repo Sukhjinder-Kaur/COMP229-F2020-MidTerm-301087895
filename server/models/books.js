@@ -1,15 +1,22 @@
+/*
+File name: index.ejs
+Author: Sukhjinder Kaur
+StudentID: 301087895
+WebApp: COMP229-F2020-MidTerm-301087895
+*/
+
 let mongoose = require('mongoose');
 
 // create a model class
 let Book = mongoose.Schema({
-    Title: String,
-    Description: String,
-    Price: Number,
-    Author: String,
-    Genre: String
+  title: String,
+  description: String,
+  price: Number,
+  author: String,
+  genre: String
 },
-{
-  collection: "books"
-});
+  {
+    collection: "books"
+  });
 
 module.exports = mongoose.model('Book', Book);
